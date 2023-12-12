@@ -18,9 +18,6 @@ const Todo = () => {
   const [taskDesc, setDesc] = useState("");
   const [taskList, setTaskList] = useState<Task[]>(tasks);
 
-  // const [newTask, setNewTask] = useState();
-  // const [taskStatus, setStatus] = useState(0);
-
   const addTask = () => {
     const task: Task = {
       name: taskName,
