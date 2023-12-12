@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.parentContainer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.addContainer {
+  width: 80%;
+  background-color: #444444;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: large;
+  color: white;
+}
+
+.addInnerContainer {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  /* align-items: space-between; */
+}
+
+input[type="text"] {
+  margin: 1rem 0rem;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.addBtn {
+  background-color: #f09304;
+  color: black;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
+  height: fit-content;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.tasksContainer {
+  width: 80%;
+  background-color: #444444;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.tasks {
+  margin: 1rem 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasksInnerCompleted {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 1rem;
+  text-decoration: line-through;
+  color: bisque;
+}
+
+.tasksInnerNotComp {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 1rem;
+}
+
+.taskNameCompleted {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.tasksNameNotComp {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #f09304;
+}
+
+.description {
+  font-weight: 600;
+  font-size: large;
+}
+
+.hrStyle {
+}
