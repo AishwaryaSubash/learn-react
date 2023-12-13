@@ -1,5 +1,5 @@
 import Axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./AxiosLearn.module.css";
 
 function AxiosLearn() {
@@ -7,11 +7,13 @@ function AxiosLearn() {
   const [country, setCountry] = useState("");
   const [capital, setCapital] = useState("");
 
-  Axios.get("https://countriesnow.space/api/v0.1/countries/capital").then(
-    (response) => {
-      setJsonData(response.data.data);
-    }
-  );
+  useEffect(() => {
+    Axios.get("https://countriesnow.space/api/v0.1/countries/capital").then(
+      (response) => {
+        setJsonData(response.data.data);
+      }
+    );
+  }, []);
 
   const searchCapital = () => {
     const json = {
