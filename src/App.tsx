@@ -29,7 +29,7 @@ function App() {
           <Router>
             <nav className={styles.links}>
               <Link to="/home">HOME</Link>
-              <Link to="/todo">TODO</Link>
+              <Link to="/">TODO</Link>
               <Link to="/fetch">FETCH</Link>
               <Link to="/axios">AXIOS</Link>
             </nav>
@@ -38,7 +38,7 @@ function App() {
                 <Route path="profile" element={<Profile />} />
                 <Route path="account" element={<Account />} />
               </Route>
-              <Route index path="todo" element={<Todo />} />
+              <Route index path="/" element={<Todo />} />
               <Route path="fetch" element={<Fetch />} />
               <Route path="axios" element={<AxiosLearn />} />
               <Route
