@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { AppContext } from "../App";
 
 const Account = () => {
-  const { un, setUn } = useContext(AppContext);
+  const { un } = useContext(AppContext);
 
   return (
     <div>
