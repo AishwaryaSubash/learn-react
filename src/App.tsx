@@ -11,7 +11,9 @@ import styles from "./App.module.css";
 
 export const AppContext = createContext({
   un: "Aishwarya",
-  setUn: (newUn: string) => {},
+  setUn: (newUn: string) => {
+    console.log(newUn);
+  },
 });
 
 function App() {
