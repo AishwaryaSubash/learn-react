@@ -3,7 +3,7 @@
 A hands-on and comprehensive approach to solidify my understanding of JavaScript, TypeScript, and React fundamentals.
 <br />
 <br />
-Backend Repository: https://learn-react-ash.vercel.app
+Frontend Repository: https://learn-react-ash.vercel.app
 
 
 
